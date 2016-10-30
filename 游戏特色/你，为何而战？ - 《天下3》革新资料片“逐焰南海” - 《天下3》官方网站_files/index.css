@@ -1,0 +1,81 @@
+@charset "gb2312";
+/* CSS Document */
+
+a{text-decoration:none;}
+a:hover{text-decoration:underline;}
+.hidden{display:none;}
+input{outline:none;}
+img{margin:0; vertical-align:middle;}
+
+.clearfix:after{content:""; display:block; height:0; font-size:0; visibility:hidden;}
+.clearfix{zoom:1;}
+
+#NIE-topBar{width:100%; min-width:1260px !important;}
+.wrapper{width:100%; min-width:1260px; height:1000px; background:url(../images/bg.jpg) no-repeat center top;}
+.inner{position:relative; width:1260px; height:100%; margin:0 auto; overflow:hidden; cursor:default;}
+.logo{position:absolute; right:80px; top:20px; width:210px; height:120px; text-indent:-9999px;background: url("Í¼Ïñ%2017.png")}
+.item{position:absolute; width:74px; overflow:hidden; font-family:STKaiti;}
+.item a{position:relative; display:block; width:100%; padding-top:52px; color:#000; transition:.5s ease-in-out; -webkit-transition:.5s ease-in-out; -moz-transition:.5s ease-in-out; -o-transition:.5s ease-in-out; text-decoration:none;}
+.item a:hover{color:#844500;}
+.item a *{cursor:pointer;}
+.item1{left:60px; top:416px; height:584px;}
+.item2{left:208px; top:556px; height:444px;}
+.item3{left:334px; top:368px; height:632px;}
+.item4{left:450px; top:504px; height:486px;}
+.circle, .circle i{background:url(../images/circle.png) no-repeat 0 0; overflow:hidden;}
+.circle{position:absolute; left:5px; top:0; width:34px; height:34px; line-height:34px; text-align:center; color:#9ea1a4; font-size:16px;}
+.circle i{position:absolute; left:50%; top:50%;}
+.circle i.circle1{width:34px; height:34px; left:0; top:0; background-position:center -34px; z-index:1;}
+.circle i.circle1.hover{animation: circle1 3s linear infinite; -webkit-animation: circle1 3s linear infinite;}
+.circle i.circle2{width:24px; height:24px; margin:-12px 0 0 -12px; background-position:center -68px; z-index:2;}
+.circle i.circle2.hover{animation: circle2 3.5s linear infinite; -webkit-animation: circle2 3.5s linear infinite;}
+.circle i.circle3{width:12px; height:12px; margin:-6px 0 0 -6px; background-position:center -92px; z-index:3;}
+.circle i.circle3.hover{animation: circle3 4s linear infinite; -webkit-animation: circle3 4s linear infinite;}
+.text i{display:inline-block; vertical-align:top; text-align:center;}
+.text i.f14{width:20px; font-size:14px; line-height:16px; padding-left:6px;}
+.text i.f17{width:20px; font-size:17px; line-height:20px; padding-left:6px;}
+.text i.f19{width:20px; font-size:19px; line-height:22px; padding-left:6px;}
+.text i.f32{width:32px; font-size:32px; line-height:34px; padding:0 6px;}
+.text i.f40{width:40px; font-size:40px; line-height:42px; padding:0 2px;}
+.text i.f44{width:44px; font-size:44px; line-height:46px;}
+.line{position:absolute; left:0; width:44px; overflow:hidden;}
+.line1{top:584px; height:400px;}
+.line2{top:444px; height:240px;}
+.line3{top:632px; height:470px;}
+.line4{top:486px; height:304px;}
+.line i{position:absolute; display:block; width:100%; height:100%; background:url(../images/line.jpg) repeat-y center 0;}
+
+.padt15{padding-top:15px;}
+.padt25{padding-top:25px;}
+.padt45{padding-top:45px;}
+
+.future-msg{position:absolute; left:10px; top:178px; padding:0 3px; line-height:16px; display:none; color:#dfdfdf; border:1px solid #ccc; font-family:simSun; background:#8a8a8a; z-index:10;}
+
+.footer{font-family:simSun; width:100%; min-width:1260px; background:#0c0c0c; padding-bottom:15px;}
+#ncp-l1,#ncp-l1 a{color:#5d5b5b;}
+#ncp-l2{color:#5d5b5b;}
+
+@-webkit-keyframes circle1 {
+	from { -webkit-transform: rotate(0); }
+	to { -webkit-transform: rotate(360deg); }
+}
+@keyframes circle1 {
+	from { -webkit-transform: rotate(0); transform: rotate(0); -moz-transform: rotate(0); -o-transform: rotate(0); -ms-transform: rotate(0); }
+	to { -webkit-transform: rotate(360deg); transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); }
+}
+@-webkit-keyframes circle2 {
+	from { -webkit-transform: rotate(0); }
+	to { -webkit-transform: rotate(-360deg); }
+}
+@keyframes circle2 {
+	from { -webkit-transform: rotate(0); transform: rotate(0); -moz-transform: rotate(0); -o-transform: rotate(0); -ms-transform: rotate(0); }
+	to { -webkit-transform: rotate(-360deg); transform: rotate(-360deg); -moz-transform: rotate(-360deg); -o-transform: rotate(-360deg); -ms-transform: rotate(-360deg); }
+}
+@-webkit-keyframes circle3 {
+	from { -webkit-transform: rotate(0); }
+	to { -webkit-transform: rotate(360deg); }
+}
+@keyframes circle3 {
+	from { -webkit-transform: rotate(0); transform: rotate(0); -moz-transform: rotate(0); -o-transform: rotate(0); -ms-transform: rotate(0); }
+	to { -webkit-transform: rotate(360deg); transform: rotate(360deg); -moz-transform: rotate(360deg); -o-transform: rotate(360deg); -ms-transform: rotate(360deg); }
+}
